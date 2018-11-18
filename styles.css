@@ -1,6 +1,6 @@
 /*Defaults*/
 
-nav, header, footer {
+nav, header, footer, article {
     display: block;
     font-family: "Times New Roman", Times, serif;
 }
@@ -63,7 +63,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover {
-    background-color: #0080ff;
+    background-color: darkmagenta;
     color: #fff;
 }
 
@@ -74,28 +74,40 @@ ul.topnav li.dropdownIcon {
 
 /*Custom styles*/
 
-#section-1-gradient {
-    background: #076DFF; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#076DFF, #65a5ff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#076DFF, #65a5ff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#076DFF, #65a5ff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#076DFF, #65a5ff); /* Standard syntax */
+#aboutme {
+    background: #090979; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(45deg, #090979, #65a5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(45deg, #090979, #65a5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(45deg, #090979, #65a5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(45deg, #090979, #65a5ff); /* Standard syntax */
+    padding-top: 50px;
 }
 
-/*Personal information*/
-.container.basicInformation {
+/*About me*/
+.container.personalImage {
     padding: 7rem 1rem 5rem 1rem;
 }
 
-.container.basicInformation img {
+.container.personalImage img {
     border-radius: 1rem;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    max-width: 70%;
+    display: block;
+    margin: auto;
+    
 }
 
-.container.personalBackground{
+.container.personalBackground {
     text-align: center;
-    padding-top: 10rem;
+    min-width: 100%;
+}
 
+.personalBackground article {
+    text-shadow: 0.1em 0.1em 0.2em;
+}
+
+.personalBackground article p {
+    text-align: justify;
 }
 
 
@@ -132,7 +144,12 @@ ul.topnav li.dropdownIcon {
         text-align: left;
     }
     
-    .container.personalBackground{
-        padding-top: 0;
-    }
+    #aboutme {
+    background: #090979; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#090979, #65a5ff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#090979, #65a5ff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#090979, #65a5ff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#090979, #65a5ff); /* Standard syntax */
+}
+
 }
