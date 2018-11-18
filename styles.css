@@ -94,7 +94,7 @@ ul.topnav li.dropdownIcon {
     max-width: 70%;
     display: block;
     margin: auto;
-    
+
 }
 
 .container.personalBackground {
@@ -115,6 +115,11 @@ ul.topnav li.dropdownIcon {
 /*Mobile*/
 
 @media screen and (max-width: 1200px) {
+    article p {
+        font-size: 25px;
+        padding: 5px;
+    }
+
     ul.topnav li:not(:nth-child(1)) {
         display: none;
     }
@@ -143,13 +148,13 @@ ul.topnav li.dropdownIcon {
         display: block;
         text-align: left;
     }
-    
+
     #aboutme {
-    background: #090979; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#090979, #65a5ff); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#090979, #65a5ff); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#090979, #65a5ff); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#090979, #65a5ff); /* Standard syntax */
-}
+        background: #090979; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#090979, #65a5ff); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#090979, #65a5ff); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#090979, #65a5ff); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#090979, #65a5ff); /* Standard syntax */
+    }
 
 }
