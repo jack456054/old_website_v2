@@ -1,8 +1,9 @@
 /*Defaults*/
 
-nav, header, footer, article {
+nav, header, footer, article, h1, h2, h4 {
     display: block;
     font-family: "Times New Roman", Times, serif;
+    text-shadow: 0.01em 0.01em 0.01em;
 }
 
 body {
@@ -28,6 +29,16 @@ article p {
 
 h1 {
     font-size: 72px;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
 }
 
 /*Nav bar*/
@@ -89,6 +100,7 @@ ul.topnav li.dropdownIcon {
 }
 
 /*About me*/
+
 .container.personalImage {
     padding: 7rem 1rem 5rem 1rem;
 }
@@ -99,16 +111,10 @@ ul.topnav li.dropdownIcon {
     max-width: 80%;
     display: block;
     margin: auto;
-
 }
 
 .container.personalBackground {
     text-align: center;
-}
-
-.personalBackground article {
-    text-shadow: 0.01em 0.01em 0.01em;
-
 }
 
 personalBackground article header{
@@ -119,7 +125,40 @@ personalBackground article header{
     text-align: justify;
 }
 
+/*Experience*/
 
+#experience {
+    margin-top: 5rem; 
+}
+
+.container.experienceTitle {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    min-width: 100%;
+    text-align: center;
+}
+
+.container.experienceTitle h1 {
+    font-weight: 600;
+}
+
+.container.center {
+    min-width: 100%;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    
+}
+.container.copyright {
+    text-align: center;
+    min-width: 100%;
+    background-color: #eee;
+    
+}
 
 /*Mobile*/
 
