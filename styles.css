@@ -96,7 +96,7 @@ ul.topnav li.dropdownIcon {
 .container.personalImage img {
     border-radius: 3rem;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
-    max-width: 70%;
+    max-width: 80%;
     display: block;
     margin: auto;
 
@@ -109,6 +109,10 @@ ul.topnav li.dropdownIcon {
 .personalBackground article {
     text-shadow: 0.01em 0.01em 0.01em;
 
+}
+
+personalBackground article header{
+    min-width: 100%;
 }
 
 .personalBackground article p {
@@ -155,7 +159,7 @@ ul.topnav li.dropdownIcon {
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 48px;
     }
 
     #aboutme {
