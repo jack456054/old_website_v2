@@ -94,7 +94,7 @@ ul.topnav li.dropdownIcon {
 }
 
 .container.personalImage img {
-    border-radius: 1rem;
+    border-radius: 3rem;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     max-width: 70%;
     display: block;
@@ -107,7 +107,7 @@ ul.topnav li.dropdownIcon {
 }
 
 .personalBackground article {
-    text-shadow: 0.1em 0.1em 0.1em;
+    text-shadow: 0.01em 0.01em 0.01em;
 
 }
 
