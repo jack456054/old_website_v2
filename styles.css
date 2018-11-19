@@ -21,8 +21,13 @@ p {
 }
 
 article p {
-    font-size: 35px;
+    font-size: 28px;
     padding: 10px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 72px;
 }
 
 /*Nav bar*/
@@ -99,11 +104,12 @@ ul.topnav li.dropdownIcon {
 
 .container.personalBackground {
     text-align: center;
-    min-width: 100%;
 }
 
 .personalBackground article {
-    text-shadow: 0.1em 0.1em 0.2em;
+    text-shadow: 0.1em 0.1em 0.1em;
+    border-style: groove;
+    border-bottom-color: black;
 }
 
 .personalBackground article p {
@@ -116,7 +122,7 @@ ul.topnav li.dropdownIcon {
 
 @media screen and (max-width: 1200px) {
     article p {
-        font-size: 25px;
+        font-size: 20px;
         padding: 5px;
     }
 
@@ -149,12 +155,17 @@ ul.topnav li.dropdownIcon {
         text-align: left;
     }
 
+    h1 {
+        font-size: 50px;
+    }
+
     #aboutme {
         background: #090979; /* For browsers that do not support gradients */
         background: -webkit-linear-gradient(#090979, #65a5ff); /* For Safari 5.1 to 6.0 */
         background: -o-linear-gradient(#090979, #65a5ff); /* For Opera 11.1 to 12.0 */
         background: -moz-linear-gradient(#090979, #65a5ff); /* For Firefox 3.6 to 15 */
         background: linear-gradient(#090979, #65a5ff); /* Standard syntax */
+        padding-bottom: 3rem;
     }
 
 }
