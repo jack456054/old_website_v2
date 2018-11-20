@@ -124,7 +124,6 @@ ul.topnav li.dropdownIcon {
 
 personalBackground article header {
     min-width: 100%;
-    display: inline;
 }
 
 .personalBackground article p {
@@ -222,7 +221,6 @@ transition: opacity 0.2s ease-in-out;
     }
 
     ul.topnav.responsive li {
-        display: inline;
         float: none;
     }
 
@@ -247,5 +245,4 @@ transition: opacity 0.2s ease-in-out;
         background: linear-gradient(#090979, #65a5ff); /* Standard syntax */
         padding-bottom: 3rem;
     }
-
 }
