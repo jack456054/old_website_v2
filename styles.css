@@ -9,6 +9,7 @@ nav, header, footer, article, h1, h2, h4 {
 body {
     line-height: 1;
     margin: 0;
+    width: 100%;
 }
 
 label {
@@ -100,12 +101,6 @@ ul.topnav li.dropdownIcon {
 
 /*About me*/
 
-.row.align-items-center {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .container.personalImage {
     padding: 7rem 1rem 5rem 1rem;
 }
@@ -124,6 +119,7 @@ ul.topnav li.dropdownIcon {
 
 personalBackground article header {
     min-width: 100%;
+    display: inline;
 }
 
 .personalBackground article p {
@@ -157,17 +153,12 @@ personalBackground article header {
 
 footer {
     margin: 0;
-
 }
 
 .container-fluid.socialMedia {
     background-color: #0D0F42;
     padding: 5rem 0 5rem 0;
     text-align: center;
-}
-
-.container-fluid.socialMediaIcon {
-    display: inline;
 }
 
 .container-fluid.socialMediaIcon img{
@@ -177,11 +168,11 @@ footer {
 
 /*
 .container.socialMediaIcon img:hover {
-opacity:0;
--webkit-transition: opacity 0.2s ease-in-out;
--moz-transition: opacity 0.2s ease-in-out;
--o-transition: opacity 0.2s ease-in-out;
-transition: opacity 0.2s ease-in-out;
+    opacity:0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 }
 */
 
@@ -190,7 +181,6 @@ transition: opacity 0.2s ease-in-out;
     text-align: center;
     background-color: #070825;
     padding: 1rem 0 1rem 0;
-
 }
 
 /*Mobile*/
@@ -221,6 +211,7 @@ transition: opacity 0.2s ease-in-out;
     }
 
     ul.topnav.responsive li {
+        display: inline;
         float: none;
     }
 
