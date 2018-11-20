@@ -113,7 +113,7 @@ ul.topnav li.dropdownIcon {
     margin: auto;
 }
 
-.container.personalBackground {
+.container-fluid.personalBackground {
     text-align: center;
 }
 
@@ -134,36 +134,59 @@ personalBackground article header h2 {
 /*Experience*/
 
 #experience {
-    margin-top: 5rem; 
+    margin-top: 5rem;
+    margin-bottom: 5rem; 
 }
 
-.container.experienceTitle {
+.container-fluid.experienceTitle {
     margin-top: 3rem;
     margin-bottom: 3rem;
-    min-width: 100%;
+
     text-align: center;
 }
 
-.container.experienceTitle h1 {
+.container-fluid.experienceTitle h1 {
     font-weight: 600;
 }
 
-.container.center {
-    min-width: 100%;
+.container-fluid.center {
     text-align: center;
     padding-bottom: 3rem;
 }
 
+/*Contact me*/
+
 footer {
     margin: 0;
-    padding: 3rem 0 3rem 0;
-    background-color: #070825;
 }
-.container.copyright {
+
+.container-fluid.socialMedia {
+    background-color: #0D0F42;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+}
+
+.container-fluid.socialMediaIcon img{
+    border-radius: 10px;
+    margin: 0 1rem;
+}
+
+/*
+.container.socialMediaIcon img:hover {
+    opacity:0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+*/
+
+.container-fluid.copyright {
     color: #aaa;
     text-align: center;
-    min-width: 100%;
     display: inline;
+    background-color: #070825;
+    padding: 1rem 0 1rem 0;
 }
 
 /*Mobile*/
@@ -206,7 +229,7 @@ footer {
     h1 {
         font-size: 40px;
     }
-    
+
     h2 {
         font-size: 30px;
     }
