@@ -124,10 +124,7 @@ ul.topnav li.dropdownIcon {
 
 personalBackground article header {
     min-width: 100%;
-}
-
-personalBackground article header h2 {
-    white-space: nowrap;
+    display: inline;
 }
 
 .personalBackground article p {
@@ -170,6 +167,10 @@ footer {
     text-align: center;
 }
 
+.container-fluid.socialMediaIcon {
+    display: inline;
+}
+
 .container-fluid.socialMediaIcon img{
     border-radius: 10px;
     margin: 0 1rem;
@@ -177,11 +178,11 @@ footer {
 
 /*
 .container.socialMediaIcon img:hover {
-    opacity:0;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    -moz-transition: opacity 0.2s ease-in-out;
-    -o-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+opacity:0;
+-webkit-transition: opacity 0.2s ease-in-out;
+-moz-transition: opacity 0.2s ease-in-out;
+-o-transition: opacity 0.2s ease-in-out;
+transition: opacity 0.2s ease-in-out;
 }
 */
 
@@ -190,7 +191,7 @@ footer {
     text-align: center;
     background-color: #070825;
     padding: 1rem 0 1rem 0;
-    
+
 }
 
 /*Mobile*/
