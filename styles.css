@@ -161,7 +161,7 @@ footer {
     text-align: center;
 }
 
-.container-fluid.socialMediaIcon img{
+.container-fluid.socialMediaIcon img {
     border-radius: 10px;
     margin: 0 1rem;
 }
@@ -235,5 +235,9 @@ footer {
         background: -moz-linear-gradient(#090979, #65a5ff); /* For Firefox 3.6 to 15 */
         background: linear-gradient(#090979, #65a5ff); /* Standard syntax */
         padding-bottom: 3rem;
+    }
+    
+    .container-fluid.socialMediaIcon img {
+        margin: 0 0.5rem;
     }
 }
