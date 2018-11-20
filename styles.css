@@ -51,7 +51,7 @@ nav {
 }
 
 nav ul {
-    background-color: #eee;
+    background-color: #070825;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -75,7 +75,7 @@ ul.topnav li a {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
-    color: #666;
+    color: #aaa;
 }
 
 ul.topnav li a:hover {
@@ -157,9 +157,10 @@ personalBackground article header h2 {
 footer {
     margin: 0;
     padding: 3rem 0 3rem 0;
-    background-color: #eee;
+    background-color: #070825;
 }
 .container.copyright {
+    color: #aaa;
     text-align: center;
     min-width: 100%;
     display: inline;
