@@ -87,7 +87,6 @@ ul.topnav li.dropdownIcon {
     display: none;
 }
 
-
 /*Custom styles*/
 
 #aboutme {
@@ -101,6 +100,12 @@ ul.topnav li.dropdownIcon {
 
 /*About me*/
 
+.row.align-items-center {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .container.personalImage {
     padding: 7rem 1rem 5rem 1rem;
 }
@@ -113,14 +118,12 @@ ul.topnav li.dropdownIcon {
     margin: auto;
 }
 
-.container-fluid.personalBackground {
+.container.personalBackground {
     text-align: center;
 }
 
 personalBackground article header {
     min-width: 100%;
-    display: inline;
-    white-space: nowrap;
 }
 
 personalBackground article header h2 {
@@ -158,6 +161,7 @@ personalBackground article header h2 {
 
 footer {
     margin: 0;
+
 }
 
 .container-fluid.socialMedia {
@@ -184,9 +188,9 @@ footer {
 .container-fluid.copyright {
     color: #aaa;
     text-align: center;
-    display: inline;
     background-color: #070825;
     padding: 1rem 0 1rem 0;
+    
 }
 
 /*Mobile*/
